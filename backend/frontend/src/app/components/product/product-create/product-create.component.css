@@ -1,0 +1,23 @@
+
+.title{
+    text-align: center;
+    color: tomato;
+    font-weight: 300;
+}
+
+.corForm{
+    background-color:black;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color: tomato;
+    color: black;
+}
