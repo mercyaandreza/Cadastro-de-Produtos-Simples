@@ -6,18 +6,25 @@
 }
 
 .corForm{
-    background-color:black;
-    
+    background-color:black    
 }
 
 form{
     display: flex;
     flex-direction: column;
+    color: black;
 }
 
+.cor{
+color: black;
+}
 button{
     margin-right: 20px;
     margin-top: 10px;
     background-color: tomato;
     color: black;
+}
+
+.styleName{
+    color: red;
 }

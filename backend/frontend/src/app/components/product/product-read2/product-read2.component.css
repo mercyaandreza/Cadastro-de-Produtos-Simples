@@ -1,4 +1,17 @@
 .full-width-table {
   width: 100%;
+  background-color:white;
 }
 
+mat-paginator  {
+  background-color: black;
+  color:white;
+}
+
+th, td{
+  color: black;
+}
+
+.mat-elevation-z8 .precoCor{
+  color: red;
+}

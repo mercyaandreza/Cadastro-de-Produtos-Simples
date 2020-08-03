@@ -10,12 +10,13 @@ import { Product } from '../product.model';
 export class ProductReadComponent implements OnInit {
 
   products: Product[]
+  displayedColumns = ['id', 'name', 'price']
 
-  constructor(private prodductService: ProductService) { }
+  constructor(private prodductService: ProductService) {}
 
   ngOnInit(): void {
-    this.prodductService.read().subscribe(products =>{
-      this.products = this.products
+    this.prodductService.read().subscribe(products => {
+      this.products = products
     })
   }
 

@@ -1,0 +1,13 @@
+table{
+    width: 100%;
+     background-color:white
+}
+
+th, td{
+    color: black;
+    
+}
+
+mat-paginator{
+    background-color: #1a0701;
+}
