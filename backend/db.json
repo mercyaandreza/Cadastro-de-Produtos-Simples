@@ -1,19 +1,39 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta Bic ",
-      "price": 6.34
-    },
-    {
       "id": 2,
       "name": "MacBook Pro ",
       "price": 6234.34
     },
     {
       "id": 3,
-      "name": "Samsumg S6 ",
-      "price": 16.348
+      "name": "Samsung S6 ",
+      "price": "16.34"
+    },
+    {
+      "name": "Teste2 ",
+      "price": "12",
+      "id": 4
+    },
+    {
+      "name": "Teste ",
+      "price": "8.50",
+      "id": 5
+    },
+    {
+      "name": "CPU ",
+      "price": "209874",
+      "id": 6
+    },
+    {
+      "name": "Samsung S20",
+      "price": "22876",
+      "id": 7
+    },
+    {
+      "name": "Samsung S2",
+      "price": "12,55",
+      "id": 8
     }
   ]
 }

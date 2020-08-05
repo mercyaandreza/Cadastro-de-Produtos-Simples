@@ -1,6 +1,6 @@
 table{
     width: 100%;
-     background-color:white
+    background-color:white
 }
 
 th, td{
@@ -11,3 +11,13 @@ th, td{
 mat-paginator{
     background-color: #1a0701;
 }
+
+i.edit{
+    color: #1a0701 ;
+    margin-right: 6px;
+}
+
+i.delete{
+    color: red;
+}
+

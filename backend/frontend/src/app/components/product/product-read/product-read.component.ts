@@ -1,6 +1,8 @@
 import { ProductService } from './../product.service';
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../product.model';
+import { Router, ActivatedRoute } from '@angular/router'
+
 
 @Component({
   selector: 'app-product-read',
@@ -10,14 +12,20 @@ import { Product } from '../product.model';
 export class ProductReadComponent implements OnInit {
 
   products: Product[]
-  displayedColumns = ['id', 'name', 'price']
+  displayedColumns = ['id', 'name', 'price', 'action']
 
-  constructor(private prodductService: ProductService) {}
+  constructor(private productService: ProductService, private router: Router, private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    this.prodductService.read().subscribe(products => {
+    this.productService.read().subscribe(products => {
       this.products = products
     })
   }
 
+  deleteProduct() {
+    const id = this.route.snapshot.paramMap.get('id')
+    this.productService.delete(id).subscribe(() =>
+    this.productService.showMessage('Produto Excluído com Sucesso'))
+    this.router.navigate(['/products'])
+  }
 }

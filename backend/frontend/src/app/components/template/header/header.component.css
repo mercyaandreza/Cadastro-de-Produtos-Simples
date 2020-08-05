@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     background-color:white;
+    color: black;
 }
 
 .header a{
@@ -14,12 +15,9 @@
 .header .logo{
     max-height:40px;
     background-color:white;
-    padding-left: 10%;
 }
 .header .title-group{
     padding-left: 300px;
 }
-.header .title-group i {
-    padding-right: 10px;
-}
+
 

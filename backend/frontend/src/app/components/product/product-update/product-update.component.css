@@ -1,0 +1,28 @@
+
+.title{
+    text-align: center;
+    color: tomato;
+    font-weight: 300;
+}
+
+.corForm{
+    background-color:rgb(0, 0, 0);  
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+button{
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color: tomato;
+    color: black;
+}
+
+.styleName-input-placeholder  { color:red; }
+
+

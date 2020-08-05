@@ -1,17 +1,17 @@
 <mat-card class="corForm">
-    <mat-card-title class="title"> Novo Produto </mat-card-title>
+    <mat-card-title class="title"> Alterar Produto </mat-card-title>
 <form class="form">
     <mat-form-field class="styleName">
         <input matInput placeholder="Nome" [(ngModel)] ="product.name" name="name"> 
     </mat-form-field>
 
-    <mat-form-field class="styleName" >
+    <mat-form-field >
         <input matInput placeholder="Preço (R$)" [(ngModel)] ="product.price" name="price"> 
     </mat-form-field>
     
 </form>
-    <button mat-raised-button (click)=" createProduct() " class="botaoSalvar">
-        Salvar
+    <button mat-raised-button (click)=" updateProduct() " class="botaoSalvar">
+        Atualizar
         <i class="material-icons check">
             check
         </i>
