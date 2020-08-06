@@ -2,15 +2,17 @@
     <mat-card-title class="title"> Novo Produto </mat-card-title>
 <form class="form">
     <mat-form-field class="styleName">
-        <input matInput placeholder="Nome" [(ngModel)] ="product.name" name="name"> 
+        Nome
+        <input matInput placeholder="INSIRA O NOME DO PRODUTO" [(ngModel)] ="product.name" name="name"> 
     </mat-form-field>
 
     <mat-form-field class="styleName" >
-        <input matInput placeholder="Preço (R$)" [(ngModel)] ="product.price" name="price"> 
+        <h3>Valor</h3>
+        <input matInput placeholder="INSIRA APENAS NÚMEROS" [(ngModel)] ="product.price" name="price">
     </mat-form-field>
     
 </form>
-    <button mat-raised-button (click)=" createProduct() " class="botaoSalvar">
+    <button mat-raised-button (click)=" createProduct() " class="botaoSalvar"  matTooltip="Info about the action">
         Salvar
         <i class="material-icons check">
             check
@@ -23,4 +25,6 @@
             cancel
         </i>
     </button>
+
 </mat-card>
+

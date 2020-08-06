@@ -1,39 +1,14 @@
 {
   "products": [
     {
-      "id": 2,
-      "name": "MacBook Pro ",
-      "price": 6234.34
-    },
-    {
-      "id": 3,
       "name": "Samsung S6 ",
-      "price": "16.34"
+      "price": "12342",
+      "id": 1
     },
     {
-      "name": "Teste2 ",
+      "name": "Caneta Comp. Preto",
       "price": "12",
-      "id": 4
-    },
-    {
-      "name": "Teste ",
-      "price": "8.50",
-      "id": 5
-    },
-    {
-      "name": "CPU ",
-      "price": "209874",
-      "id": 6
-    },
-    {
-      "name": "Samsung S20",
-      "price": "22876",
-      "id": 7
-    },
-    {
-      "name": "Samsung S2",
-      "price": "12,55",
-      "id": 8
+      "id": 2
     }
   ]
 }

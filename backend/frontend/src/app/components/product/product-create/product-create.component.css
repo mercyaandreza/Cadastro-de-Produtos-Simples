@@ -6,7 +6,7 @@
 }
 
 .corForm{
-    background-color:black    
+    background-color:white    
 }
 
 form{
@@ -26,5 +26,6 @@ button{
 }
 
 .styleName{
-    color: red;
+    color: black;
+    font-style: oblique;
 }

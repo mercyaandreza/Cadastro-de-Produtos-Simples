@@ -2,6 +2,8 @@ import { ProductService } from './../product.service';
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../product.model';
 import { Router, ActivatedRoute } from '@angular/router'
+import {MatPaginatorModule} from '@angular/material/paginator';
+
 
 
 @Component({
